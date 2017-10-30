@@ -553,8 +553,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MovementRange: 100
   axesToUse: 0
-  horizontalAxisName: Horizontal
-  verticalAxisName: Vertical
+  horizontalAxisName: HorizontalLeft
+  verticalAxisName: VerticalLeft
 --- !u!114 &326827276
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1394,8 +1394,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MovementRange: 100
   axesToUse: 0
-  horizontalAxisName: Horizontal
-  verticalAxisName: Vertical
+  horizontalAxisName: HorizontalRight
+  verticalAxisName: VerticalRight
 --- !u!114 &1482167006
 MonoBehaviour:
   m_ObjectHideFlags: 0
