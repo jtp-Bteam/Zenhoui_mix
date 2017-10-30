@@ -175,7 +175,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Destroy:0
+  m_Text: "\u6575\u5168\u6EC5\u3067\u30AF\u30EA\u30A2"
 --- !u!222 &8232838
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -249,7 +249,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Time:0
+  m_Text: "\u305D\u3073\u3048\u305F\u3064\u67F1"
 --- !u!222 &54443092
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -598,7 +598,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Destroy:0
+  m_Text: 
 --- !u!222 &117997822
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -920,7 +920,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Destroy:0
+  m_Text: "\u6575\u5168\u6EC5\u3067\u30AF\u30EA\u30A2"
 --- !u!222 &542174016
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -994,7 +994,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Destroy:0
+  m_Text: "\u6575\u5168\u6EC5\u3067\u30AF\u30EA\u30A2"
 --- !u!222 &547857921
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1142,7 +1142,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Stage6
+  m_Text: 
 --- !u!222 &601129632
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1216,7 +1216,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Time:0
+  m_Text: "\u65B0\u305F\u306A\u308B\u8105\u5A01"
 --- !u!222 &642445190
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1574,7 +1574,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Destroy:0
+  m_Text: "\u30B9\u30B3\u30A250\u4EE5\u4E0A\u3067\u30AF\u30EA\u30A2"
 --- !u!222 &916791346
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1787,7 +1787,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Time:0
+  m_Text: "\u8FD1\u65E5\u914D\u4FE1\u4E88\u5B9A\uFF01"
 --- !u!222 &1028589960
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1985,7 +1985,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Time:0
+  m_Text: "\u843D\u3061\u308B\u7403\u306B\u6C17\u3092\u3064\u3051\u308D"
 --- !u!222 &1074781857
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2133,7 +2133,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Time:0
+  m_Text: "\u56DE\u308B\u58C1"
 --- !u!222 &1254717160
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2455,7 +2455,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u521D\u9663"
+  m_Text: Stage1
 --- !u!222 &1382362104
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2539,14 +2539,14 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 749880283}
-        m_MethodName: IntArgFunction
-        m_Mode: 3
+        m_MethodName: StringArgFunction
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: -1
           m_FloatArgument: 0
-          m_StringArgument: Back
+          m_StringArgument: StartStage
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
@@ -2651,7 +2651,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Destroy:0
+  m_Text: "\u6575\u5168\u6EC5\u3067\u30AF\u30EA\u30A2"
 --- !u!222 &1661780297
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2725,7 +2725,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Time:0
+  m_Text: "\u67F1\u518D\u3073"
 --- !u!222 &1899650811
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2799,7 +2799,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u843D\u3061\u308B\u7403\u306B\u6C17\u3092\u4ED8\u3051\u308D"
+  m_Text: Stage2
 --- !u!222 &2006888980
 CanvasRenderer:
   m_ObjectHideFlags: 0

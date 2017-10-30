@@ -51,7 +51,7 @@ public abstract class AbstractStageScript : MonoBehaviour {
             if(GameObject.Find("Player") != false) time += Time.deltaTime;
         }
         else{
-            if(time > 0 && GameObject.Find("Player") != false) time -= Time.deltaTime;
+            if(GameObject.Find("Player") != false) time += Time.deltaTime;
         }
     }
 
