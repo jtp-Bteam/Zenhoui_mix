@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: bd8a96706bf8019418d653c84314ac1d
+timeCreated: 1500962680
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - playerObj: {fileID: 1231924968789440, guid: b9a23e21e9b92c145a78b8add42fe307,
+      type: 2}
+  - enemyObj: {fileID: 1530385250232244, guid: b9f539c6406a12547bd6cbe7b68f4b21, type: 2}
+  - speedUpObj: {fileID: 1030234297283358, guid: f3d3c5cbd139b044fb6b12961ba8717c,
+      type: 2}
+  - speedDownObj: {fileID: 1194496436610186, guid: efb427a9eefcb984699cc67efe42f050,
+      type: 2}
+  - companionObj: {fileID: 1057766672947092, guid: 935d53c06a6dbbe4e9f7ee9796a6f193,
+      type: 2}
+  - threeWayObj: {fileID: 1272691449629680, guid: c111ddabf5ca99f48a456fed78ff784d,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
