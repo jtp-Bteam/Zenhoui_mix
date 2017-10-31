@@ -62,6 +62,11 @@ public class FirstStageScript : AbstractStageScript
         }
     }
 
+    private void FixedUpdate()
+    {
+        CountTime();
+    }
+
     bool CanCreateItem()
     {
         if (Random.Range(1, 101) % 4 == 0)

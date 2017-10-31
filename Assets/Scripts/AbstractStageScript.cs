@@ -47,12 +47,13 @@ public abstract class AbstractStageScript : MonoBehaviour {
 
     public void CountTime()
     {
-        if(SceneManager.GetActiveScene().name == "EndlessStage"){
-            if(GameObject.Find("Player") != false) time += Time.deltaTime;
-        }
-        else{
-            if(GameObject.Find("Player") != false) time += Time.deltaTime;
-        }
+        //if(SceneManager.GetActiveScene().name == "EndlessStage"){
+        //    if(GameObject.Find("Player") != false) time += Time.deltaTime;
+        //}
+        //else{
+        //    if(GameObject.Find("Player") != false) time += Time.deltaTime;
+        //}
+        if (GameObject.Find("Player") != false) time += Time.deltaTime;
     }
 
     public float GetTime()

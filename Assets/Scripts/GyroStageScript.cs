@@ -28,6 +28,11 @@ public class GyroStageScript : AbstractStageScript {
         if (GameObject.Find("Player") == null) Invoke("Clear", 3f);
     }
 
+    private void FixedUpdate()
+    {
+        CountTime();
+    }
+
     public override void GenerateEnemy()
     {
         GameObject enemy = Instantiate(enemyObj, new Vector3(-20 + Random.value * 40, 0, -20 + Random.value * 40), Quaternion.identity) as GameObject;

@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -16,6 +17,8 @@ public class BGMScript : MonoBehaviour {
 	public AudioClip polp; //戦闘曲
 	public AudioClip madoka; //リザルト曲
 	private AudioSource audioSource;
+
+    private string[] allStage = { "EndlessStage", "FirstStage", "SecondStage", "Stage1", "Stage2", "GyroStage" };
 
 	void Awake()
     {
@@ -48,11 +51,12 @@ public class BGMScript : MonoBehaviour {
 			audioSource.clip = keep;
 			audioSource.Play();
 		}
-		else if(SceneManager.GetActiveScene().name == "SelectEquipment" && audioSource.clip != keep){
+		else if((SceneManager.GetActiveScene().name == "SelectEquipment" || SceneManager.GetActiveScene().name == "SelectStage") && audioSource.clip != keep){
 			audioSource.clip = keep;
 			audioSource.Play();
 		}
-		else if(SceneManager.GetActiveScene().name == "EndlessStage" && audioSource.clip != polp)
+		//else if(SceneManager.GetActiveScene().name == "EndlessStage" && audioSource.clip != polp)
+        else if(0 <= Array.IndexOf(allStage, SceneManager.GetActiveScene().name) && audioSource.clip != polp)
 		{
 			audioSource.clip = polp;
 			audioSource.Play();
